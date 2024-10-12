@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:space-between;
+   
+
+}
+h3{
+    margin:10px 0;
+    text-transform: uppercase;
+
+}
+h6{
+    margin-bottom: 10px 0;
+    text-transform: uppercase;
+}
+.Card-container{
+    background-color:beige;
+    border-radius: 10px;
+    color:brown;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+     margin: 10px;
+}
+    
+    .pro{
+        color:whitesmoke;
+        background-color: brown;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 200px;
+        position: relative;
+        bottom: 50px;
+        right: 10px;
+    
+       
+        
+    }
+    .online{
+        background-color: blue;
+    }
+    .offline{
+        background-color: rgb(243, 49, 49);
+    }
+    .img{
+        border: 2px solid #FFFf;
+        border-radius: 50px;
+       width: 100px;
+       height: 100px;
+       outline: 2px;
+       border-color:aqua;
+       border-style: double;
+        
+    }
+    .button{
+        justify-content: center;
+        gap: 7px;
+        display: flex;
+    }
+    button.primary{
+        background-color: rgb(66, 66, 184);
+        padding: 7px 7px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        align-items: center;
+        text-align: center;
+        color: #FFFf;
+    }
+    button.primary.outline{
+        background-color: transparent;
+        color: black;
+
+    }
+    .skills{
+        text-align: left;
+        padding: 10px;
+    }
+    h6{
+        background-color: rgb(168, 180, 180);
+        display: inline;
+        position: relative;
+        top: -px;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 2px;
+       
+       
+    }
+    .skills ul{
+        list-style-type:none;
+        padding: 0;
+    }
+    
+    .skills ul li{
+        display: inline-block;
+        border: 2px solid black;
+        padding: 7px;
+        border-radius: 50px;
+        margin: 0 7px 7px 0;
+
+    }
+
+   body{
+ background-color:rgb(116, 112, 112);
+
+   }
+   @media (min-width: 900px) {
+    .Card-container {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    .Card-container {
+      flex-direction: row;
+      justify-content:space-around;
+      
+    }
+}

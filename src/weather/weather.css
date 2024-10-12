@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 350px;
+
+}
+.city
+{
+padding: 12px;
+margin: 10px;
+border: none;
+flex: 1;
+outline: none;
+border-radius: 10px;
+font-size: 16px;
+
+}
+input{
+    border: none;
+    width: 100%;
+    
+}
+.input-box
+{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(250, 250, 250);
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+.search
+{
+   
+    height: 20px;
+    cursor: pointer;
+    
+}
+.sun{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+.image{
+    text-align: center;
+}
+
+.temp,
+.location,
+.country{
+    margin-top: 5px;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.temp{
+    font-weight:400;
+
+}
+.location{
+    color:yellowgreen;
+}
+.country{
+    font-weight: 200;
+    font-size:  16px;
+}
+.cord{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    gap:10px;
+    margin-top: 10px;
+}
+.cord div span{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    
+   }
+   .cord div span:nth-child(2){
+    font-weight: bold;
+    font-size: 16px;
+   }
+   .icon
+   {
+    font-size: 3px;
+    padding: 2px;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+   
+   }
+   .data-container{
+    display: flex;
+    justify-content: space-between;
+   }
+   .element{
+    text-align: center;
+    margin-top: 20px;
+   }
+   .text{
+    font-weight: bold;
+    color:rgb(51, 51, 51);
+
+   }
+   .percent{
+    font-weight: bold;
+    color:rgb(51, 51, 51);
+
+   }
+   p{
+    text-align:center;
+   font-weight:bold;
+   color:#333;
+   margin-top: 20px;
+   
+   }
